@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+#navbar{
+    position: sticky;
+    z-index: 100;
+    box-shadow: 5px 5px 2px rgb(8, 8, 8);
+
+    
+    
+}
+.navbar .navbar-brand{
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+}
+#navbarNav a{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    
+}
+#navbarNav a:hover{
+    border-bottom: 2px solid rgb(8, 207, 221);
+    color: yellow;
+}
+
+/*about us*/
+#aboutus h1{
+    text-align: center;}
+#aboutus h2{
+text-align: center;
+padding: 20px;
+}
+#aboutus{
+    background: rgb(88, 87, 87);
+    height: 100%;
+    width: 100%;
+}
+#aboutus .row{
+    background: rgb(59, 172, 224);
+}
+#about img{
+    padding: auto;
+}
+/* home*/
+#home{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carousel{
+    width: 100%;
+    height: 70vh;
+}
+
+    
+
+.carousel img{
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+    
+}
+
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    background: burlywood;
+    color: white;
+    height: 100%;
+    margin: auto;
+    
+    
+}
+/*character*/
+#character{
+    height: 100%;
+    background: rgb(107, 106, 177);
+    width: 100%;
+}
+#character h2  {
+    text-align: center;
+}
+#character p  {
+    text-align: center;
+}
+
+#character .row .card-body{
+    height: 50%;
+    border-radius: 40px;
+    
+    }
+#character .row .card-body:hover{
+    background:lightslategray;
+    transition: .6s;
+
+}
+#character .row .card{
+    border-radius: 40px;
+    background: linear-gradient(15px 20px 10px rgba(0,0,0,.5));
+    height: auto;
+}
+
+/*testimonials*/
+#testimonial{
+    height: 100%;
+    background:rgb(207, 146, 14);
+}
+#testimonial h1{
+    text-align: center;
+    color: rgb(12, 12, 12);
+    padding: 20px;
+}
+#testimonial h4{
+    text-align: center;
+    color: rgb(249, 250, 249);
+    margin: 10px;
+}
+/*contact us*/
+#contactus{
+    height: 100vh;
+    background:rgb(13, 29, 39) ;
+}
+#contactus h1{
+    text-align: center;
+    color: rgb(207, 221, 6);
+    padding: 20px;
+}
+#contactus .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 300px;
+    align-items: center;
+    margin: auto;
+    background: rgb(54, 146, 142);
+    border-radius: 10px;
+    
+}
+
+#contactus input{
+    
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: rgb(234, 234, 236);
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 250px;
+
+}
